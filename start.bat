@@ -1,0 +1,6 @@
+@echo off
+echo 正在安装依赖...
+pip install -r requirements.txt
+
+echo 启动股票预测应用...
+streamlit run app.py
